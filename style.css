@@ -1,6 +1,6 @@
 /* Apply monospaced font across the entire website */
 body {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Sour Gummy", sans-serif !important;
     background-color: #f8f9fa;
     color: #333;
     margin: 0;
@@ -8,19 +8,22 @@ body {
 }
 
 header {
-    background-color: #343a40;
+    background-color: #334353;
     color: white;
     padding: 2rem 0;
 }
 
 header h1 {
     font-size: 2.5rem;
+    font-family: "Sour Gummy", sans-serif;
 }
 
 .logo {
     width: 100px;
     height: auto;
     margin-bottom: 1rem;
+    border-radius: 50px;
+    border: 4px solid #75879a;
 }
 
 .container {
@@ -111,6 +114,7 @@ footer a:hover {
     align-items: center;
     justify-content: space-around;
     margin: auto !important;
+    max-width: 512px;
 }
 
 .hero-links div {
@@ -118,4 +122,8 @@ footer a:hover {
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+.row.video-player {
+    justify-content: center;
 }
