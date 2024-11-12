@@ -140,3 +140,28 @@ footer a:hover {
 body {
     font-size: 18px !important;
 }
+
+.btn-oregon {
+    font-size: 18px !important;
+    padding: 8px !important;
+    background-color: #285938 !important;
+    color: #d6e9b7 !important;
+    border-radius: 12px !important;
+}
+
+.btn-oregon:hover {
+    color: #ffffff !important;
+}
+
+.btn-polar {
+    font-size: 18px !important;
+    padding: 8px !important;
+    background-color: #e7faff !important;
+    color: hsl(202, 73%, 48%) !important;
+    border-radius: 12px !important;
+}
+
+.btn-polar:hover {
+    background-color: #d7eff6 !important;
+    color: hsl(202, 73%, 41%) !important;
+}
