@@ -36,7 +36,7 @@ section {
 }
 
 .token-info {
-    background-color: #ffffff;
+    background-color: #ffffff96;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
@@ -126,4 +126,17 @@ footer a:hover {
 
 .row.video-player {
     justify-content: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#about {
+    background-color: #1d6182;
+    color: #f0efe4;
+}
+
+body {
+    font-size: 18px !important;
 }
