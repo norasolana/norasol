@@ -174,11 +174,11 @@ body {
     border-radius: 12px !important;
 }
 
-.btn-tg svg {
-    margin-bottom:4px;
-}
-
 .btn-tg:hover {
     color: #d7eff6 !important;
     background-color: hsl(202, 73%, 41%) !important;
+}
+
+.btn-tg svg {
+    margin-bottom:4px;
 }
